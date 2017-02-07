@@ -1,0 +1,150 @@
+/****************
+index page
+****************/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #F46D25;
+}
+
+.tv-shows {
+    width: 100%;
+    height: 12em;
+    background-color: #09EE04;
+}
+#nav ul{
+  position: sticky;
+  top: 10px;
+  height: 50px;
+  padding: 0px;
+}
+
+#nav li {
+
+    display: inline;
+    padding: 1em 1em;
+    margin: 0px 0.5em;
+}
+
+#nav li a {
+    font-family: 'Sansita', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    padding: auto 0px;
+}
+
+li:hover{
+  color:#AE40D3;
+  background-color: #09EE04;
+}
+
+
+.nav-logo {
+    padding-left: 100px;
+}
+
+#nav {
+    height: 100px;
+    marging-top: 3em;
+    text-decoration: none;
+}
+
+.logo {
+    padding: 0px 100px;
+    color: #F46D25;
+    font-family: 'Barrio', cursive;
+    font-size: 6em;
+}
+
+.logo h2 {
+    margin: 0px;
+}
+
+#main {
+    border: solid white 2px;
+    background: white;
+    overflow-y: auto;
+    height: 50em;
+}
+
+#information-pic {
+    margin-left: 1.5em;
+    border: solid #09EE04 2px;
+}
+
+ul.share-buttons {
+    margin-top: 0px;
+    padding-bottom: 0px;
+    list-style: none;
+    padding: 0;
+}
+
+ul.share-buttons li {
+    display: inline;
+}
+
+ul.share-buttons .sr-only {
+    position: absolute;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0;
+    border: 0;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+ul.share-buttons img {
+    width: 32px;
+}
+
+footer {
+    background-color: #AE40D3;
+    margin: 0px -3em;
+    padding-bottom: 2em;
+    position: relative;
+    bottom: 0;
+}
+
+.actor-list{
+  font-weight: bolder;
+  font-size: 2em;
+  list-style: none;
+}
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #F005D4;
+    color: white;
+
+}
+
+/****************
+hey anorld
+******************/
+
+#arnold-main-content {
+    padding: 0px 3em;
+    color: white;
+    border-left: solid #AE40D3 3px;
+}
+
+table tr {
+    border-bottom: solid black 2px;
+    border-spacing: 3em;
+}
+
+.new-nav-item {
+    background-color: #AE40D3;
+    color: #F46D25;
+    font-family: 'Sansita', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    padding: auto 0px;
+}
